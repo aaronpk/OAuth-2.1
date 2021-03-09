@@ -2217,7 +2217,7 @@ Risks related to token disclosure are mitigated by the mandatory
 usage of mechanisms providing
 confidentiality, authentication and integrity such as {{RFC8446}}
 (see {{tls-version}}). 
-if the client should be prevented from observing the contents of the token,
+If the client should be prevented from observing the contents of the token,
 token MUST be encrypted.
 
 Cookies are typically transmitted in the clear.  Thus, any
